@@ -1,0 +1,23 @@
+.menu-container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item-icon {
+    width: 15vw;
+    height: 15vw;
+    margin-bottom: 3px;
+    background-size: cover;
+}
+
+.menu-item-text {
+    font-size: 12px;
+}

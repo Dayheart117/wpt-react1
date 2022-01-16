@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 
-export const useSearchContrulor = (current, onSearch) => {
+export const useSearchController = (current, onSearch) => {
       // 组件内置的控制当前高亮的状态
   const [ showIndex, setShowState ] = useState(0);
   // 决定视图高亮的index 

@@ -1,6 +1,3 @@
-
-
-import EchartsPage  from './../pages/EchartsPage'
 import Home from './../pages/Home';
 import Community from '../pages/Community';
 import Classification from './../pages/Classification';
@@ -19,4 +16,7 @@ export default  [ {
 }, {
     path: '/mine',
     Component: Mine
+}, {
+    path: '/test',
+    Component: Classification
 }]

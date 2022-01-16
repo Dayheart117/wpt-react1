@@ -1,6 +1,6 @@
 import React, { forwardRef, useImperativeHandle } from "react";
 import PropTypes from "prop-types";
-import { useSearchContrulor } from "./effect";
+import { useSearchController } from "./effect";
 
 import styles from "./index.module.css";
 
@@ -21,7 +21,7 @@ export const Navigator = ({
   bgcolor,
   current,
 }, ref) => {
-  const { currentShowIndex, handleItemSearch } = useSearchContrulor(
+  const { currentShowIndex, handleItemSearch } = useSearchController(
     current,
     onSearch
   );

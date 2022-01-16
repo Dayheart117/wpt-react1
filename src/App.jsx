@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 // import ReactDOM from "react-dom";
 
@@ -44,6 +44,7 @@ const MENE_LIST = [
   },
 ];
 
+
 const useNavigator = () => {
   const initCurrent = MENE_LIST.findIndex(item => item.path === location.pathname)
   const [current, setCurrent] = useState(initCurrent);
@@ -61,6 +62,7 @@ const useNavigator = () => {
 
 function App() {
   const { current, handleNavigatorRouter, isShow } = useNavigator();
+
 
   return (
     <Provider store={store}>

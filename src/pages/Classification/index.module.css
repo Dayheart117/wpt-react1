@@ -1,13 +1,11 @@
-.page-home{
-    padding: 0 4px 50px 4px;
-}
-
 .search-bar {
+    width: 100vw;
+    background: #F8F9FA;
     position: sticky;
     top: 0;
     left: 0;
 }
 
-.menu {
+.content {
 
 }
