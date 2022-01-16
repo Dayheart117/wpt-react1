@@ -18,9 +18,10 @@ function Gift(props) {
           giftList.map(item => {
             return (
               <Link to={`/product/${item.id}`} key={item.id}>
-                <div className={styles['gift-item-img']}>
-                  <img src={item.img} alt=""/>
-                </div>
+                <div
+                  className={styles['gift-item-img']}
+                  style={{background: `url(${item.img}) no-repeat center center`}}
+                />
                 <div className={styles['gift-item-price']}>
                   <div>
                     { item.price }

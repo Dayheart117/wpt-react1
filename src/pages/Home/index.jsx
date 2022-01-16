@@ -29,7 +29,6 @@ const createMockImgs = () => {
   return res;
 }
 
-
 const useGetMenu = () => {
   return [ {
     title: "拍卖行",

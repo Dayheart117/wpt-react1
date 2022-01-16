@@ -1,3 +1,23 @@
 .gift-item {
     display: flex;
+    width: 100vw;
+    overflow: auto;
+    gap: 5vw;
+    padding: 5vw;
+    box-sizing: border-box;
+}
+
+.gift-item-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gift-item-price > div:first-of-type {
+    text-decoration: line-through;
+    color: #9AA0B1;
+}
+
+.gift-item-img {
+    width: 25vw;
+    height: 25vw;
 }
