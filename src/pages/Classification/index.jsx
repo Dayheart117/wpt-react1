@@ -40,6 +40,86 @@ const Classification = () => {
           img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
           path: '/classification/1',
         },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
+        {
+          name: '翡翠',
+          img: 'https://cdn.weipaitang.com/res/img/category20180803/1_1002.jpg?t=12',
+          path: '/classification/1',
+        },
       ]
     },
     {

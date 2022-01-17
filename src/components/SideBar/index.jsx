@@ -6,15 +6,17 @@ function SideBar(props) {
   const { data } = props;
   return (
     <div className={ styles['bar-container'] }>
-      <div className={ styles['bar'] }>
-        {
-          data.map((item, index) => (
-            <a key={ index } className={ styles['bar-item'] } href={ '#' + index }>
-              { item.name }
-            </a>
-          ))
-        }
+      <div className={styles['bar-outer']}>
+        <div className={ styles['bar'] }>
+          {
+            data.map((item, index) => (
+              <a key={ index } className={ styles['bar-item'] } href={ '#' + index }>
+                { item.name }
+              </a>
+            ))
+          }
 
+        </div>
       </div>
       <div className={ styles['content'] }>
         {

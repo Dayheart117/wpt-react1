@@ -3,18 +3,29 @@
     width: 100vw;
 }
 
+.bar-outer {
+    position: relative;
+    width: 30vw;
+}
+
 .bar {
-    width: 40vw;
+    position: fixed;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.types-item{
+.content {
+    overflow: auto;
     flex: 1;
+}
+
+.types-item{
+    /*flex: 1;*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .item-img {
